@@ -1,0 +1,49 @@
+.reports-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: radial-gradient(rgb(206, 228, 231), rgb(140, 182, 207), rgb(101, 176, 190));
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reports-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button-group button:hover {
+    background-color: #a9c3e0;
+  }
+  
+  .financial-report {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .financial-report p {
+    margin: 10px 0;
+  }
+  
